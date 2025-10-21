@@ -1,3 +1,13 @@
+How to Set Git Username and Password in Git Bash?
+Step 1: Open Git Bash
+Step 2: Set Your Username:	git config --global user.name "Nguyen Duc Van"
+Step 3: Set Your Email:		git config --global user.email "ndvan@tuyenquang.edu.vn"
+Step 4: Set Your Password:	git config --global user.password "YourPassword"
+Step 5: Store Credentials Permanently:	git config --global credential.helper store
+Step 6: Verify Your Configuration:	git config --list --show-origin
+
+
+
 Cách 1: Tạo project trên GitHub
 - Tạo một GitHub repo
 - Clone project này: git clone link_your_repo
