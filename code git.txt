@@ -1,4 +1,17 @@
-git status
-git add .
-git commit -m "your message"
-git push origin main
+Cách 1: Tạo project trên GitHub
+- Tạo một GitHub repo
+- Clone project này: git clone link_your_repo
+- git status
+- git add .
+- git commit -m "your message"
+- git push origin main
+
+Cách 2: Tạo project local và đẩy lên GitHub
+- Tạo một GitHub repo
+- git init
+- Viết code
+- git status
+- git add .
+- git commit -m "your message"
+- git remote add origin https://github.com/ndvantq/edumore.git
+- git push origin master
